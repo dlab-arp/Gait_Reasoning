@@ -20,3 +20,10 @@ A clinical tool must be rigorously validated. Gait-Reasoner was evaluated agains
 | :--- | :--- | :--- | :--- | :--- |
 | **GPJATK** | Normal / Healthy Baseline | 58 | 82.76% | 2.38 |
 | **Participant Data** | Severe Cerebral Palsy Pathologies | 285 | 62.11% | 5.73 |
+
+**Quick Start & Installation**
+Prerequisites
+* Ubuntu/Linux environment (tested on WSL2/Ubuntu) or Windows.
+* NVIDIA GPU (Tested on L40S and RTX 40-series) with CUDA installed.
+* **FFmpeg** is *required* for web-video standardization.
+
