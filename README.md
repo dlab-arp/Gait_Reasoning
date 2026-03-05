@@ -38,8 +38,9 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install transformers ultralytics gradio opencv-python pandas
 
 python ogs_app.py
+Open the gradio link
 Select a video, click "Execute Clinical Analysis" and view the Chain-of-Thought reasoning and clinical assessment in real-time.
 
 **Future Work**   
-* Expanded Pathology Fine-Tuning: Training the VLM on a larger subset of severe clinical deviations to lower the MAE on complex walker/crutch use-cases.
-* Edge Deployment: Optimizing the quantized model for deployment on portable clinical tablets.
+* Expanded Pathology Fine-Tuning: Training the VLM on a larger subset of severe clinical deviations to lower the MAE on pathology cases.
+* Edge Deployment: Optimizing the quantized model for deployment on portable clinical tablets and cell phones.
