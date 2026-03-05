@@ -13,3 +13,9 @@ Our pipeline bridges zero-shot computer vision with generative medical reasoning
 4. Chain-of-Thought (CoT) Biomechanics: nvidia/Cosmos-Reason2-8B evaluates the visual data, explicitly reasoning through complex bilateral kinematics (e.g., midstance knee extension, heel rise         timing, altered base of support).
 5. Deterministic Clinical Extraction: The VLM's CoT is parsed using an engineered regex and auto-repair pipeline to ensure 100% compliant, structured JSON outputs.
 6. Executive Summary UI: A Gradio dashboard provides an explainable "second opinion," presenting the bilateral OGS scores and immediately flagging bipedal asymmetry.
+
+**Validation & Results**
+A clinical tool must be rigorously validated. Gait-Reasoner was evaluated against ground-truth clinician scores across two datasets.
+Dataset,Patient Type,Samples,Symmetry Accuracy,Overall OGS MAE
+GPJATK,Normal / Healthy Baseline,58,82.76%,2.38
+Participant Data,Severe Cerebral Palsy Pathologies,285,62.11%,5.73
