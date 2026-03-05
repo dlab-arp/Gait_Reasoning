@@ -16,6 +16,7 @@ Our pipeline bridges zero-shot computer vision with generative medical reasoning
 
 **Validation & Results**
 A clinical tool must be rigorously validated. Gait-Reasoner was evaluated against ground-truth clinician scores across two datasets.
-Dataset,Patient Type,Samples,Symmetry Accuracy,Overall OGS MAE
-GPJATK,Normal / Healthy Baseline,58,82.76%,2.38
-Participant Data,Severe Cerebral Palsy Pathologies,285,62.11%,5.73
+| Dataset | Patient Type | Samples | Symmetry Accuracy | Overall OGS MAE |
+| :--- | :--- | :--- | :--- | :--- |
+| **GPJATK** | Normal / Healthy Baseline | 58 | 82.76% | 2.38 |
+| **Participant Data** | Severe Cerebral Palsy Pathologies | 285 | 62.11% | 5.73 |
