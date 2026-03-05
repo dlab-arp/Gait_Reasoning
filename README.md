@@ -1,1 +1,2 @@
-# Gait_Reasoning
+# Gait-Reasoner: Autonomous Clinical Gait Workstation
+Gait-Reasoner is an end-to-end, explainable AI pipeline that transforms standard 2D video into structured clinical biomechanical assessments. Built for pediatric Cerebral Palsy triage, it leverages the NVIDIA Cosmos-Reason2-8B Vision-Language Model to autonomously calculate the Observational Gait Scale (OGS) without the need for expensive, multi-camera infrared gait labs.
