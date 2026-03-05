@@ -26,4 +26,13 @@ Prerequisites
 * Ubuntu/Linux environment (tested on WSL2/Ubuntu) or Windows.
 * NVIDIA GPU (Tested on L40S and RTX 40-series) with CUDA installed.
 * **FFmpeg** is *required* for web-video standardization.
+# Install system dependencies (Ubuntu/Debian)
+sudo apt update && sudo apt install ffmpeg -y
 
+# Clone the repository
+git clone https://github.com/dlab-arp/gait-reasoner.git
+cd gait-reasoner
+
+# Install Python dependencies
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install transformers ultralytics gradio opencv-python pandas
