@@ -5,3 +5,11 @@ Gait-Reasoner is an end-to-end, explainable AI pipeline that transforms standard
 Gait analysis is fundamental for assessing the severity of Cerebral Palsy in pediatric patients. However, the current gold standard requires highly specialized gait labs staffed by technical experts, utilizing expensive physical markers and infrared cameras. While accurate, it is incredibly time-consuming, expensive, and inaccessible to most patients.
 
 **Gait-Reasoner democratizes clinical biomechanics by enabling at-home clinical analysis using standard cell phone videos, providing a powerful, scalable tool for rapid clinical triaging.**
+
+**System Architecture**
+Our pipeline bridges zero-shot computer vision with generative medical reasoning:
+  1. Dynamic Patient Isolation: YOLOv8-pose is utilized to track the patient, isolating the relevant biomechanical regions and ignoring background clinic distractors.
+  2. Temporal Frame Sampling: Keyframes representing a full gait cycle are extracted and pre-processed.
+  3. Chain-of-Thought (CoT) Biomechanics: nvidia/Cosmos-Reason2-8B evaluates the visual data, explicitly reasoning through complex bilateral kinematics (e.g., midstance knee extension, heel rise         timing, altered base of support).
+  4. Deterministic Clinical Extraction: The VLM's CoT is parsed using an engineered regex and auto-repair pipeline to ensure 100% compliant, structured JSON outputs.
+  5. Executive Summary UI: A Gradio dashboard provides an explainable "second opinion," presenting the bilateral OGS scores and immediately flagging bipedal asymmetry.
