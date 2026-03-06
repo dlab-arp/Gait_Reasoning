@@ -40,7 +40,7 @@ sudo apt update && sudo apt install ffmpeg -y
 * python ogs_app.py
 
 Open the gradio link
-Select a video, click "Execute Clinical Analysis" and view the Chain-of-Thought reasoning and clinical assessment in real-time.
+Select a video, click "Execute Clinical Analysis" and view the Chain-of-Thought reasoning and clinical assessment in real-time. We have provided 3 demo videos.
 
 **Future Work**   
 * Expanded Pathology Fine-Tuning: Training the VLM on a larger subset of severe clinical deviations to lower the MAE on pathology cases.
