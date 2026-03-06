@@ -34,8 +34,8 @@ sudo apt update && sudo apt install ffmpeg -y
 * cd gait-reasoner
 
 # Install Python dependencies
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install transformers ultralytics gradio opencv-python pandas
+* pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+* pip install transformers ultralytics gradio opencv-python pandas
 
 python ogs_app.py
 Open the gradio link
