@@ -37,7 +37,8 @@ sudo apt update && sudo apt install ffmpeg -y
 * pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 * pip install transformers ultralytics gradio opencv-python pandas
 
-python ogs_app.py
+* python ogs_app.py
+
 Open the gradio link
 Select a video, click "Execute Clinical Analysis" and view the Chain-of-Thought reasoning and clinical assessment in real-time.
 
