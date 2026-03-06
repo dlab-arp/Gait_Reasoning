@@ -45,3 +45,6 @@ Select a video, click "Execute Clinical Analysis" and view the Chain-of-Thought 
 **Future Work**   
 * Expanded Pathology Fine-Tuning: Training the VLM on a larger subset of severe clinical deviations to lower the MAE on pathology cases.
 * Edge Deployment: Optimizing the quantized model for deployment on portable clinical tablets and cell phones.
+
+**Author**
+Balaji Iyer, Computer Vision and Medical Imaging,  University of Cincinnati
