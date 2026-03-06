@@ -30,8 +30,8 @@ Prerequisites
 sudo apt update && sudo apt install ffmpeg -y
 
 # Clone the repository
-git clone https://github.com/dlab-arp/Gait_Reasoning.git
-cd gait-reasoner
+* git clone https://github.com/dlab-arp/Gait_Reasoning.git
+* cd gait-reasoner
 
 # Install Python dependencies
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
